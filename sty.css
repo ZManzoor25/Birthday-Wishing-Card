@@ -1,0 +1,54 @@
+body{
+    background: rgb(18, 18, 58);
+    display:grid;
+    place-items: center;
+    height: 100vh;
+    margin:0;
+
+}
+.card {
+    background: #dbd1d1;
+    border-radius: 8px;
+    height: 85vh;
+    width: 85vh;
+    /* padding: 200px; */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    text-align: center;
+    display: flex;
+    flex: column;
+    justify-content: center;
+    padding-left: 10px;
+    padding-top: 5ch;
+    background-image: url(bg.jpeg);
+    background-size: cover; /* Adjusts the size */
+    background-repeat: no-repeat; /* Prevents repeating */
+    background-position: center;
+
+}
+img.Birthday {
+    max-height: 400vh;
+    position: absolute;
+    left: 45%;
+    top: 15%;
+}
+img.Balon{
+    position: absolute;
+    right: 40%;
+    bottom: 20%;
+    display:block;
+}
+img.gb{
+    max-height: 50vh;
+    position: absolute;
+    right: 57%;
+    top:56%;
+}
+h1{
+    text-shadow: gray;
+    color: #a54312;
+
+}
+.muted{
+    opacity: 0.8;
+}
+
